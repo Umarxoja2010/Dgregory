@@ -1,0 +1,57 @@
+.next{
+    padding: 36px 0 32px;
+}
+.next_wrapper{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+.next_card1 h4{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+line-height: 143%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #1d1d1d;
+opacity: 0.5;
+}
+.next_card2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.next_card2 span{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #000;
+
+}
+.next_card2 h5{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #000;
+transform: rotate(315deg);
+}
+.next_card2 div{
+    border-radius: 2px;
+width: 40px;
+height: 40px;
+background: #fff;
+transform: rotate(45deg);
+display: flex;
+align-items: center;
+justify-content: center;
+}

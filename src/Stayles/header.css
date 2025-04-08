@@ -1,0 +1,165 @@
+.header {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+
+
+    top: 0;
+    left: 0;
+    right: 0;
+position: absolute;
+z-index: 10;
+}
+.main_header {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_card1 ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header_card1 ul li a {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 129%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+
+}
+.main_header ul li a {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 129%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+
+}
+.header h2{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 143%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+text-transform: capitalize;
+}
+.main_header h2{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 143%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #000;
+}
+.burger  {
+width: 50px;
+display: none;
+cursor: pointer;
+}
+.burger img{
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+}
+
+.modal{
+    position: fixed;
+    inset: 0;
+    background-color: white;
+    z-index: 5;
+    transform: translateX(-2000px);
+    transition: 500ms;
+    display: none;
+}
+.show{
+    transform: translateX(0px);
+    transition: 500ms;
+}
+.modal ul{
+    margin-top: 250px;
+}
+.clos img{
+    position: fixed;
+ top: 20px;
+    right: 20px;
+    width: 30px;
+    height:30px;
+    cursor: pointer;
+}
+.modal ul li a {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 129%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+@media (max-width:800px) {
+    .header_card3 h2{
+        font-size: 16px;
+    }
+}
+@media (max-width:660px) {
+.burger{
+    display: block;
+}
+.header_card1 ul{
+    display: none;
+}
+.header_card3 h2{
+    display: none;
+}
+.modal{
+    display: block;
+}
+.header_card2 {
+ margin-right: 300px;
+}
+.header{
+    padding-top: 10px;
+}
+}
+@media (max-width:580px) {
+    .header_card2 {
+ margin-right: 200px;
+}
+}
+@media (max-width:480px) {
+    .header_card2 {
+ margin-right: 100px;
+}
+.header_card2 img{
+    width: 100%;
+}
+.burger img{
+    width: 100%;
+}
+}

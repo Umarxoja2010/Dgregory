@@ -1,0 +1,119 @@
+.product h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1d1d1d;
+    margin-top: 60px;
+}
+.product_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+}
+
+
+.product_card{
+    width: 255px;
+    height: 386px;
+    background-image: url("../Images/gumbaz.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+margin-top: 80px;
+}
+.product_card:nth-last-of-type(4){
+    transform: translateY(-80px);
+}
+.product_card:nth-last-of-type(1){
+    transform: translateY(-80px);
+}
+.product_card img{
+    display: block;
+    width: 150px;
+    height: 250px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.product_card h3{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #1d1d1d;
+margin-bottom: 4px;
+}
+.product_card h4{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+line-height: 143%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #1d1d1d;
+margin-bottom: 5px;
+}
+.product_card h5{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+line-height: 143%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #c09188;
+}
+.product button{
+    font-family: var(--font-family);
+    font-weight: 700;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f3e7e0;
+    border-radius: 2px;
+    background-color: black;
+border: none;
+margin: 60px auto 0;
+display: block;
+cursor: pointer;
+clip-path: polygon(13% 0, 87% 0, 100% 47%, 88% 100%, 15% 100%, 0 51%);
+width: 253px;
+height: 44px;
+}
+@media (max-width:850px) {
+    .product_card{
+        height: 300px;
+    }
+    .product_card img{
+        height: 200px;
+    }
+}
+@media (max-width:700px) {
+    .product_wrapper{
+        flex-wrap: wrap;
+    }
+    .product_card:nth-last-of-type(4){
+        transform: translateY(0);
+    }
+    .product_card:nth-last-of-type(1){
+        transform: translateY(0);
+    }
+    .product_card{
+        height: 380px;
+    }
+    .product_card img{
+        height: 250px;
+    }
+}

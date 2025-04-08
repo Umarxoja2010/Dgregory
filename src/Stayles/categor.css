@@ -1,0 +1,51 @@
+.categor{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+}
+
+.cat_card button{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;box-shadow: 0 0 10px 0 rgba(111, 111, 111, 0.25);
+ background-color: black;
+    border-radius: 30px;
+  width: 70px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.cat_card button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+  .cat_card {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  .cat_card h4{
+    font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 10px;
+  }
+  .cat_grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .updateform{
+    display: none;
+  }
+  .updateshow{
+    display: block;
+  }

@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+:root {
+  font-family: "Abyssinica SIL", serif;
+  font-family: "Abhaya Libre", serif;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+body{
+background-color:antiquewhite;
+}
+.AdminPage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.AdminPage a{
+  border: 2px solid gray;
+  padding: 5px;
+  background-color: rgba(240, 248, 255, 0.432);
+}
+.AdminPage a:hover{
+  background-color: white;
+  color: black;
+  text-decoration:underline;
+
+}

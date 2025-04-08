@@ -1,0 +1,132 @@
+.pdpFirst{
+padding-top: 120px;
+padding-bottom: 60px;
+}
+.pdpFirst_wrapper{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 40px;
+}
+.pdpFirst_left img{
+    width: 386px;
+    height: 486px;
+}
+.pdpFirst_right h2{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 28px;
+line-height: 143%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+color: #000;
+margin-bottom: 10px;
+}
+.pdpFirst_right h3{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 180%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+color: #000;
+margin-bottom: 20px;
+}
+.pdpFirst_right option{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+line-height: 143%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+color: #1d1d1d;
+
+}
+.pdpFirst_right select{
+    background-color: white;
+    width: 314px;
+    height: 40px;
+    border: none;
+padding: 10px;
+display: block;
+}
+.pdpFirst_right button{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+line-height: 143%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #f3e7e0;
+border-radius: 2px;
+fill: #1d1d1d;
+background-color: black;
+clip-path: polygon(13% 0, 87% 0, 100% 47%, 88% 100%, 15% 100%, 0 51%);
+width: 253px;
+height: 44px;
+margin-top: 20px;
+border: none;
+cursor: pointer;
+}
+.pdpFirst_right p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #000;
+    line-height: 25px;
+    margin-top: 40px;
+}
+@media (max-width:780px) {
+.pdpFirst_right select{
+width: 100%;
+}
+    .pdpFirst_right button{
+width: 100%;
+}
+.pdpFirst_left img{
+    width: 346px;
+    height: 446px;
+}
+.pdpFirst_right option {
+    width: 100%;
+}
+}
+@media (max-width:700px) {
+    .pdpFirst_left img{
+        width: 296px;
+        height: 386px;
+    }
+}
+@media (max-width:650px) {
+    .pdpFirst_left img{
+        width: 246px;
+        height: 326px;
+    }
+    .pdpFirst_right h2{
+        font-size: 18px;
+    }
+    .pdpFirst_right h3{
+        font-size: 16px;
+    }
+
+}
+@media (max-width:530px) {
+    .pdpFirst_wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .pdpFirst_right button{
+        width: 253px;
+height: 44px;
+    }
+    .pdpFirst_right select{
+        width: 314px;
+        height: 40px;
+    }
+    .pdpFirst_left img{
+        width: 296px;
+        height: 396px; 
+    }
+}

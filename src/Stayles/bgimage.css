@@ -1,0 +1,20 @@
+.bgimage img{
+    width: 100%;
+    margin-top: 60px;
+height: 254px;
+overflow: auto;
+}
+.bgimage{
+padding-top: 40px;
+}
+@media (max-width:700px) {
+    .bgimage  img{
+        margin-top: 20px;
+    }
+}
+@media (max-width:500px) {
+    .bgimage img{
+        height: 180px;
+    }
+
+}
