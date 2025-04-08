@@ -77,7 +77,7 @@ function Header() {
           </NavLink>
         </div>
         <div className="header_card3">
-          <h2>Welcome  {user.username}</h2>
+          <h2>Welcome  {user?.username}</h2>
         </div>
         <div onClick={openModal} className="burger">
           <img src={rasm2} alt="" />
