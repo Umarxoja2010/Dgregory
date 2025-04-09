@@ -16,7 +16,7 @@
    text-align: center;
    border-radius: 15px;
    cursor: grabbing;
-   
+ 
    }
 
    .future input{
@@ -68,4 +68,38 @@
    .tanla{
     background-color: yellow;
    }
-   
+   @media (max-width:820px) {
+    .future_wrapper{
+      gap: 15px;
+      padding: 10px;
+    }
+    .future_card{
+      padding: 5;
+    }
+
+   }
+   @media (max-width:780px) {
+    .future_card{
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .future button{
+      width: 25%;
+    }
+.future input{
+  width: 30%;
+}
+   }
+@media (max-width:520px) {
+   .future_wrapper{
+    grid-template-columns: repeat(3, 1fr);
+   }
+   .future button{
+      width: 35%;
+   }
+   .future input{
+    width: 80%;
+  }
+}

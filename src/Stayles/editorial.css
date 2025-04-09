@@ -159,3 +159,28 @@ left: -3px;
     font-size: 10px ;
 }
 }
+@media (max-width:480px) {
+.yon_chiziq1{
+    display: none;
+}
+.yon_chiziq2{
+    display: none;
+}
+.yon_chiziq3{
+display: none;
+}
+.yon_chiziq4{
+display: none;    
+}
+.editorial{
+    border: none;
+    padding: 0;
+}
+.editorial_right{
+    border: none;
+}
+.editorial_left{
+    border: none;
+
+}
+}

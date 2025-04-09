@@ -13,7 +13,6 @@ function Pdpfirt() {
         setpro(json.data)
     }
     let selectPro = pro?.find((item) => item._id === id.produktId)
-    console.log(selectPro);
 
 
     return (

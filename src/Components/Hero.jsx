@@ -6,7 +6,6 @@ function Hero() {
   useEffect(() => {
     getData("headers").then((res) => setHero(res));
   }, []);
-  console.log(hero);
   return (
     <section className='hero' style={{ backgroundImage: `url(${hero?.data?.[0]?.imageLink})` }}>
       <div className="container">

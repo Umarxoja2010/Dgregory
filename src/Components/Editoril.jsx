@@ -6,7 +6,6 @@ function Editoril() {
     useEffect(() => {
         getData("editoril").then((res) => setEditoril(res));
     }, []);
-    console.log(editoril);
     return (
         <section className='editoril' style={{ backgroundImage: `url(${editoril?.data?.[0]?.imageLink})` }}>
             <div className="container">

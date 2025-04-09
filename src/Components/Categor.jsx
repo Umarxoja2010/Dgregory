@@ -39,7 +39,7 @@ function Categor() {
     async function updateCategor(e) {
         e.preventDefault()
         let ready = {
-            cat_name: upcat_name.current.value, // to'g'ridan-to'g'ri nomni olish
+            cat_name: upcat_name.current.value, 
         }
 
         await fetch(API + "category/" + id, {
@@ -49,12 +49,12 @@ function Categor() {
             },
             body: JSON.stringify(ready)
         })
-        getData()  // update dan keyin kategoriyalarni qayta yuklash
-        updateform.current.classList.remove("updateshow") // update formani yopish
+        getData() 
+        updateform.current.classList.remove("updateshow") 
     }
 
     function openupdateform(e) {
-        setid(e.target.id) // id ni olish
+        setid(e.target.id) 
         updateform.current.classList.add("updateshow")
         let selectedcat = cate?.find((item) => item._id === e.target.id)
         setselectedcat(selectedcat)
@@ -64,7 +64,7 @@ function Categor() {
         await fetch(API + `category/${e.target.id}`, {
             method: "DELETE"
         })
-        getData()  // delete dan keyin kategoriyalarni qayta yuklash
+        getData() 
     }
 
     return (

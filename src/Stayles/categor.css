@@ -49,3 +49,16 @@ gap: 10px;
   .updateshow{
     display: block;
   }
+@media (max-width:890px) {
+  .categor{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media (max-width:650px) {
+.categor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+}

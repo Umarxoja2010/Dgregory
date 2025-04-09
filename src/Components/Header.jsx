@@ -15,31 +15,33 @@ function Header() {
   }
   function closeModal (){
     modal.current.classList.remove("show")
+    yashir.current.classList.remove("show")
   }
+  let yashir =useRef()
   return (
     <header className={location.pathname=== `/user/${userId.userID}` ? "header" : "main_header"}>
-      <div ref={modal} className="modal">
+      <div  ref={modal} className="modal">
         <div onClick={closeModal} className="clos">
           <img src={rasm3} alt="" />
         </div>
-        <ul>
-          <li>
-            <NavLink>
+        <ul  >
+          <li  onClick={closeModal} ref={yashir} >
+            <NavLink to="/contact">
               Shop
             </NavLink>
           </li>
-          <li>
-            <NavLink>
+          <li  onClick={closeModal} ref={yashir} >
+            <NavLink to="/contact">
               Shop
             </NavLink>
           </li>
-          <li>
-            <NavLink>
+          <li  onClick={closeModal} ref={yashir} >
+            <NavLink to="/contact">
               Shop
             </NavLink>
           </li>
-          <li>
-            <NavLink>
+          <li  onClick={closeModal} ref={yashir} >
+            <NavLink to="/contact">
               Shop
             </NavLink>
           </li>

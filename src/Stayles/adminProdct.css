@@ -114,3 +114,27 @@
     background-color: white;
     border: 2px solid black;
   }
+  .ali{
+    height: 620px;
+  }
+  @media (max-width:950px) {
+    .admin_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+    }
+    .mini_wrapper{
+      margin: 0 auto;
+    }
+.update_form{
+  margin: 0;
+  display: block;
+}
+  }
+  @media (max-width:640px) {
+ 
+    .mini_card{
+    width: 100%;
+    }
+  }

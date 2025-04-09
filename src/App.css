@@ -22,22 +22,5 @@ li{
 body{
 background-color:antiquewhite;
 }
-.AdminPage{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 150px;
-  margin-bottom: 100px;
-  margin-top: 50px;
-}
-.AdminPage a{
-  border: 2px solid gray;
-  padding: 5px;
-  background-color: rgba(240, 248, 255, 0.432);
-}
-.AdminPage a:hover{
-  background-color: white;
-  color: black;
-  text-decoration:underline;
 
-}
+

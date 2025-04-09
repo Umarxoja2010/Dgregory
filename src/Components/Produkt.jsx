@@ -7,7 +7,6 @@ function Produkt() {
     useEffect(() => {
         getData("products").then((res) => setprodukt(res));
     }, []);
-    console.log(produkt);
     return (
         <section className='produkt' >
             <div className="container">

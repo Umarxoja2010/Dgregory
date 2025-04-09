@@ -6,7 +6,6 @@ function Cotageriy() {
     useEffect(() => {
         getData("category").then((res) => setcategoriy(res));
     }, []);
-    console.log(categoriy);
     return (
         <section className='cotagoriy'>
             <div className="container">

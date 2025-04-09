@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 18px;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 .category_card h3{
     font-family: var(--font-family);
@@ -53,16 +55,7 @@ display: block;
         width: 210px;
     }
 }
-@media (max-width:650px) {
-    .category_wrapper{
-        flex-direction: column;
-    }
-}
-@media (max-width:580px) {
-.category_wrapper{
-    flex-direction: column;
-}
-}
+
 @media (max-width:480px) {
     .category_inp_wrapper {
        flex-wrap: wrap;

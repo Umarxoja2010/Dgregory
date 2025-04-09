@@ -129,7 +129,7 @@ function AdminProdct() {
     <div>
       <h2> AdminProduct</h2>
       <div className='admin_wrapper'>
-        <form onSubmit={(e) => createAdmProdct(e)} className='form'>
+        <form onSubmit={(e) => createAdmProdct(e)} className='form ali'>
           <h2>Create</h2>
           <h5>Title</h5>
           <input ref={nomi} type="text" placeholder='title' />

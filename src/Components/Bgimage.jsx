@@ -8,7 +8,6 @@ function Bgimage() {
   useEffect(() => {
     getData("bgImage").then((res) => setbgimage(res));
   }, []);
-  console.log(bgimage);
 
   return (
     <section className='bgimage'>
